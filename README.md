@@ -82,6 +82,27 @@ I'm **Tamim Hasan**. My dream is to become a **doctor**, and I bring that same c
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tamimlabs&color=24c8db&style=flat-square" alt="Profile views">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tamimlabs&show_icons=true&title_color=2764d8&icon_color=24c8db&text_color=24292f&hide_border=true&hide_title=true" alt="Tamim's GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tamimlabs&layout=compact&title_color=2764d8&text_color=24292f&hide_border=true" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=tamimlabs&hide_border=true" alt="GitHub streak">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tamimlabs&theme=flat&no-frame=true&column=4" alt="GitHub trophies">
+</p>
+
+---
+
 ## 📫 Connect
 
 <p align="center">

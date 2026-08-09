@@ -6,8 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/tamimlabs"><img alt="GitHub: tamimlabs" src="https://img.shields.io/badge/GitHub-tamimlabs-181717?style=for-the-badge&logo=github"></a>
-  <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Featured Project: Your Download Manager" src="https://img.shields.io/badge/Featured%20Project-Your%20Download%20Manager-2764d8?style=for-the-badge"></a>
-  <a href="https://github.com/tamimlabs/Your-Download-Manager/blob/master/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-2ea043?style=for-the-badge"></a>
+  <img alt="Coming Soon: Your Download Manager" src="https://img.shields.io/badge/Coming%20Soon-Your%20Download%20Manager-2764d8?style=for-the-badge">
 </p>
 
 </div>
@@ -36,22 +35,12 @@ I'm **Tamim Hasan**. My dream is to become a **doctor**, and I bring that same c
         <li>🌐 <strong>Site video extraction</strong> (YouTube, Vimeo, Twitch, and more) via yt-dlp</li>
         <li>🖱️ <strong>One-click browser handoff</strong> — a Manifest V3 extension for Chrome, Edge, and Firefox</li>
       </ul>
-      <p>
-        <a href="https://github.com/tamimlabs/Your-Download-Manager"><strong>View the repository →</strong></a>
-      </p>
     </td>
     <td width="45%" align="center">
-      <img src="https://raw.githubusercontent.com/tamimlabs/Your-Download-Manager/master/Branding/YDM_logo-primary_glass-bg.png" alt="YDM logo" width="200">
-      <br><br>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-2764d8"></a>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Platform: Windows; macOS & Linux upcoming" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%26%20Linux%20upcoming-24c8db"></a>
+      <h3>🔒 Coming Soon</h3>
+      <p>Currently in private development.<br>Will be open-sourced here once testing is complete.</p>
       <br>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Built with Tauri 2" src="https://img.shields.io/badge/desktop-Tauri%202-24c8db"></a>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Backend: Rust" src="https://img.shields.io/badge/backend-Rust-e5733c"></a>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Frontend: Svelte 5" src="https://img.shields.io/badge/frontend-Svelte%205-ff3e00"></a>
-      <br>
-      <a href="https://github.com/tamimlabs/Your-Download-Manager"><img alt="Extension: Manifest V3" src="https://img.shields.io/badge/extension-Manifest%20V3-4b8bf4"></a>
-      <a href="https://github.com/tamimlabs"><img alt="Made by Tamim Hasan" src="https://img.shields.io/badge/made%20by-Tamim%20Hasan-6f42c1"></a>
+      <a href="https://github.com/tamimlabs"><img alt="Follow for updates" src="https://img.shields.io/badge/Follow%20for%20updates-tamimlabs-181717?style=for-the-badge&logo=github"></a>
     </td>
   </tr>
 </table>

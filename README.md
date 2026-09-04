@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/tamimlabs"><img alt="GitHub: tamimlabs" src="https://img.shields.io/badge/GitHub-tamimlabs-181717?style=for-the-badge&logo=github"></a>
+  <a href="https://www.supportkori.com/tamimlabs"><img alt="Donate via SupportKori" src="https://img.shields.io/badge/Donate-SupportKori-ff4757?style=for-the-badge&logo=heart&logoColor=white"></a>
   <img alt="Coming Soon: Your Download Manager" src="https://img.shields.io/badge/Coming%20Soon-Your%20Download%20Manager-2764d8?style=for-the-badge">
 </p>
 
@@ -71,6 +72,17 @@ I'm **Tamim Hasan**. My dream is to become a **doctor**, and I bring that same c
 
 ---
 
+## 💖 Support
+
+If my work helps you, please consider supporting it:
+
+<p align="center">
+  <a href="https://www.supportkori.com/tamimlabs"><img alt="Donate via SupportKori" src="https://img.shields.io/badge/Support_Me_on-SupportKori-ff4757?style=for-the-badge&logo=hand-holding-heart&logoColor=white"></a>
+</p>
+
+> Every donation via [supportkori.com/tamimlabs](https://www.supportkori.com/tamimlabs) keeps privacy-first open source alive. Thank you!
+
+---
 
 ## 📫 Connect
 

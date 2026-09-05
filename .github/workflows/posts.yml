@@ -1,0 +1,30 @@
+name: Posts
+# 🎬 Auto-updates README between markers:
+#   <!-- YOUTUBE:START --> ... <!-- YOUTUBE:END -->
+#   <!-- BLOG-POST-LIST:START --> ... <!-- BLOG-POST-LIST:END -->
+# Setup: replace CHANNEL_ID / FEED_URL below, then run once manually.
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "5"
+          # --- YouTube (find yours at https://commentpicker.com/youtube-channel-id.php) ---
+          youtube_channel_id: "CHANNEL_ID"
+          youtube_comment_tag: "YOUTUBE:"
+          # --- Blog / Devpost RSS (put any RSS/Atom feed; leave commented if unused) ---
+          # feed_list: "https://example.com/feed.xml"
+          # comment_tag_name: "BLOG-POST-LIST"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

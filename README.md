@@ -133,48 +133,19 @@ If my work helps you, please consider supporting it:
 
 ---
 
-### ⚡ Live from GitHub
-
-<p align="center">
-  <!-- 📈 activity graph — live, no setup -->
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tamimlabs&theme=tokyo-night&hide_border=true&area=true" alt="activity graph"/>
-</p>
-
-<!--
-  Hidden until ready — uncomment each block once its setup is done,
-  so no broken images ever show.
-
-  🐍 Snake (needs one Snake workflow run → creates `output` branch):
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/tamimlabs/tamimlabs/output/github-contribution-grid-snake.svg" alt="contribution snake"/>
-  </p>
-
-  📊 Metrics (needs METRICS_TOKEN secret → creates metrics.svg on main):
-  <p align="center">
-    <img width="100%" src="https://raw.githubusercontent.com/tamimlabs/tamimlabs/main/metrics.svg" alt="metrics"/>
-  </p>
-
-  ⏱️ WakaTime (needs WakaTime linked):
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=tamimlabs&theme=tokyonight&hide_border=true" alt="wakatime"/>
-  </p>
-
-  🎧 Spotify (needs your UID in place of YOUR_SPOTIFY_ID):
-  <p align="center">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0B1220&interchange=false" alt="spotify now playing"/>
-  </p>
--->
-
-<!-- HIDDEN until posts.yml is configured: re-add YOUTUBE / BLOG markers then. -->
-
----
-
 ### 🏆 Hackathons & proof
 
 | Hackathon | Build | Proof |
 |---|---|---|
 | Google — All Things Agentic | 🧠 NexusMind AI | [repo](https://github.com/tamimlabs/nexusmind-ai) · [demo](https://youtu.be/57qWqvspqjs) · [devpost](https://devpost.com/tamimlabs) |
 | Automation / AI video | 🎬 Social Media Automation | [repo](https://github.com/tamimlabs/social-media-automation) · [devpost](https://devpost.com/tamimlabs) |
+
+---
+
+### 🎬 Fresh from YouTube
+
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
 
 ---
 

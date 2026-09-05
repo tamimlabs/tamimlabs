@@ -21,7 +21,7 @@ jobs:
         with:
           max_post_count: "5"
           # --- YouTube (find yours at https://commentpicker.com/youtube-channel-id.php) ---
-          youtube_channel_id: "CHANNEL_ID"
+          youtube_channel_id: "UCv4McnzY0Zp0jdxJmZMToEg"
           youtube_comment_tag: "YOUTUBE:"
           # --- Blog / Devpost RSS (put any RSS/Atom feed; leave commented if unused) ---
           # feed_list: "https://example.com/feed.xml"

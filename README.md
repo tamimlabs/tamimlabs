@@ -145,6 +145,8 @@ If my work helps you, please consider supporting it:
 ### 🎬 Fresh from YouTube
 
 <!-- YOUTUBE:START -->
+- [This AI Agent Is Gonna Make Your Life Easier](https://www.youtube.com/watch?v=57qWqvspqjs)
+- [I Built an Autonomous AI Agent That Executes Tasks on Its Own | NexusMind AI](https://www.youtube.com/watch?v=woSOCuzfabg)
 <!-- YOUTUBE:END -->
 
 ---

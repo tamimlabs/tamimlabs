@@ -79,7 +79,7 @@ yt-dlp · FFmpeg · M-V3        Cloud Run · Firestore         Cloudflare Pages 
 **🎬 Social Media Automation** `Python · n8n · Gemini · MoviePy` — [code](https://github.com/tamimlabs/social-media-automation)
 <br/>Zero-cost pipeline: raw video + prompt → captioned 9:16 clip, auto-edited, auto-published via Telegram + n8n.
 
-**⚔️ Cyber Clash 2077** `HTML · CSS · JS` — [play it](https://tamimlabs.github.io/cyber-clash-2077/)
+**⚔️ Cyber Clash 2077** `HTML · CSS · JS` — [🎮 play it](https://cyber-clash-2077.pages.dev/)
 <br/>50-level cyberpunk browser fighter, 5 story arcs, 5 bosses. Zero backend, pure front-end juice.
 
 **🔌 Browser Download Companion** `JS · Manifest V3`

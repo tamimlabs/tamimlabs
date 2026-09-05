@@ -20,11 +20,10 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "5"
-          # --- YouTube (find yours at https://commentpicker.com/youtube-channel-id.php) ---
-          youtube_channel_id: "UCv4McnzY0Zp0jdxJmZMToEg"
-          youtube_comment_tag: "YOUTUBE:"
-          # --- Blog / Devpost RSS (put any RSS/Atom feed; leave commented if unused) ---
-          # feed_list: "https://example.com/feed.xml"
-          # comment_tag_name: "BLOG-POST-LIST"
+          # --- YouTube via RSS (channel: @tamimlabs) ---
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCv4McnzY0Zp0jdxJmZMToEg"
+          comment_tag_name: "YOUTUBE"
+          # --- Add more feeds comma-separated if needed ---
+          # feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCv4McnzY0Zp0jdxJmZMToEg,https://example.com/feed.xml"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

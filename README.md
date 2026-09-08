@@ -31,7 +31,7 @@ class TamimHasan:
     username = "tamimlabs"
     location = "Bangladesh"
     portfolio = "tamimlabs.pages.dev"
-    roles = ["Full-Stack Developer", "Open-Source Builder", "Future Doctor"]
+    roles = ["Full-Stack Developer", "Open-Source Builder", "Future Doctor, Inshallah"]
 
     passions = ["desktop apps", "AI agents", "computer vision",
                 "automation", "games", "robotics"]

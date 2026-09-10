@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:2764D8&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2764D8,100:8EC5FF&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=0B1220&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,100:2764D8&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" alt="Tamim Hasan header"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:0B1220,100:2764D8&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:2764D8,100:8EC5FF&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=0B1220&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1220,100:2764D8&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=55&descSize=16" alt="Tamim Hasan header"/>
 </picture>
 
 <p align="center">
@@ -175,9 +175,9 @@ I'm always up for collabs, feedback on YDM, hackathons, or just nerding out over
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2764D8,100:0B1220&height=140&section=footer" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:8EC5FF,100:2764D8&height=140&section=footer" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2764D8,100:0B1220&height=140&section=footer" alt="footer"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:2764D8,100:0B1220&height=140&section=footer" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:8EC5FF,100:2764D8&height=140&section=footer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:2764D8,100:0B1220&height=140&section=footer" alt="footer"/>
 </picture>
 
 <p align="center"><i>© 2026 Tamim Hasan · Bangladesh · Built with curiosity, care, and way too much ☕</i></p>

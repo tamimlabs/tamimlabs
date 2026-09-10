@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:60A5FA&height=220&section=header&text=Tamim%20Hasan&fontSize=54&fontColor=FFFFFF&fontAlignY=35&desc=Full-Stack%20Developer%20-%20Bangladesh&descAlignY=52&descSize=17" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:2563EB&height=220&section=header&text=Tamim%20Hasan&fontSize=54&fontColor=FFFFFF&fontAlignY=35&desc=Full-Stack%20Developer%20-%20Bangladesh&descAlignY=52&descSize=17" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:60A5FA&height=220&section=header&text=Tamim%20Hasan&fontSize=54&fontColor=FFFFFF&fontAlignY=35&desc=Full-Stack%20Developer%20-%20Bangladesh&descAlignY=52&descSize=17" alt="Tamim Hasan header"/>
-</picture>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:0B1220,100:2764D8&height=200&section=header&text=Tamim%20Hasan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=%40tamimlabs%20%E2%80%94%20Full-Stack%20Developer%20%C2%B7%20Bangladesh&descAlignY=68&descSize=16" alt="Tamim Hasan header"/>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=700&color=24C8DB&center=true&vCenter=true&width=600&lines=Doctor+by+dream+%2B+Developer+by+heart;+I+ship+desktop+apps%2C+AI+agents+%26+games;+No+telemetry.+No+tracking.+Just+good+software.;+Welcome+to+my+GitHub+%F0%9F%91%8B" alt="typing intro"/>
@@ -174,10 +170,6 @@ I'm always up for collabs, feedback on YDM, hackathons, or just nerding out over
   <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="dev joke (live)"/>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,100:2563EB&height=140&section=footer" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:1E3A8A&height=140&section=footer" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,100:2563EB&height=140&section=footer" alt="footer"/>
-</picture>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:2764D8,100:0B1220&height=140&section=footer" alt="footer"/>
 
 <p align="center"><i>© 2026 Tamim Hasan · Bangladesh · Built with curiosity, care, and way too much ☕</i></p>

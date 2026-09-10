@@ -1,0 +1,55 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tamim Hasan — Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="55%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#FFFFFF" opacity="0.35"/>
+    </pattern>
+    <filter id="tshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- solid card base: fully opaque, visible on light AND dark pages -->
+  <rect x="0" y="0" width="1200" height="300" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="300" rx="26" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- decorative rings, top-right -->
+  <g fill="none" stroke="#FFFFFF" opacity="0.28">
+    <circle cx="1090" cy="52" r="58" stroke-width="2"/>
+    <circle cx="1090" cy="52" r="86" stroke-width="1.5"/>
+    <circle cx="112" cy="248" r="44" stroke-width="2"/>
+  </g>
+  <circle cx="150" cy="60" r="6" fill="#7DD3FC" opacity="0.9"/>
+  <circle cx="1052" cy="222" r="5" fill="#BFDBFE" opacity="0.9"/>
+
+  <!-- animated waves along the bottom (text zone stays on clean gradient) -->
+  <path fill="url(#waveA)" opacity="0.55"
+        d="M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z;
+              M0,238 C150,258 300,220 450,244 S750,260 900,236 S1100,220 1200,242 L1200,300 L0,300 Z;
+              M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z"/>
+  </path>
+  <path fill="#0B1220" opacity="0.28"
+        d="M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z;
+              M0,262 C180,278 340,246 520,264 S820,278 1000,258 S1130,246 1200,266 L1200,300 L0,300 Z;
+              M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z"/>
+  </path>
+
+  <!-- name + subtitle, centered on the clean part of the gradient -->
+  <text x="600" y="138" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif"
+        font-size="72" font-weight="800" letter-spacing="1" fill="#FFFFFF" filter="url(#tshadow)">Tamim Hasan</text>
+  <rect x="480" y="162" width="240" height="4" rx="2" fill="#7DD3FC" opacity="0.9"/>
+  <text x="600" y="204" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif"
+        font-size="25" font-weight="600" letter-spacing="3" fill="#DBEAFE">@TAMIMLABS · FULL-STACK DEVELOPER</text>
+</svg>

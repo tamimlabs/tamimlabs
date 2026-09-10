@@ -1,0 +1,21 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <pattern id="fdots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#FFFFFF" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1200" height="130" rx="26" fill="url(#fbg)"/>
+  <rect x="0" y="0" width="1200" height="130" rx="26" fill="url(#fdots)" opacity="0.5"/>
+  <path fill="#FFFFFF" opacity="0.16"
+        d="M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z;
+              M0,46 C150,66 300,28 450,52 S750,68 900,44 S1100,28 1200,50 L1200,0 L0,0 Z;
+              M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z"/>
+  </path>
+</svg>

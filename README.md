@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://tamimlabs.pages.dev"><img src="https://img.shields.io/badge/🌐_Portfolio-tamimlabs.pages.dev-2764d8?style=for-the-badge" alt="portfolio"/></a>
-  <a href="mailto:contact.tamimlabs@gmail.com"><img src="https://img.shields.io/badge/✉️_Email-contact.tamimlabs-EA4335?style=for-the-badge" alt="email"/></a>
+  <a href="https://tamimlabs.com"><img src="https://img.shields.io/badge/🌐_Portfolio-tamimlabs.com-2764d8?style=for-the-badge" alt="portfolio"/></a>
+  <a href="mailto:hello@tamimlabs.com"><img src="https://img.shields.io/badge/✉️_Email-hello@tamimlabs.com-EA4335?style=for-the-badge" alt="email"/></a>
   <a href="https://github.com/tamimlabs?tab=followers"><img src="https://img.shields.io/github/followers/tamimlabs?style=for-the-badge&logo=github&label=Follow" alt="follow"/></a>
   <a href="https://www.supportkori.com/tamimlabs"><img src="https://img.shields.io/badge/Donate-SupportKori-ff4757?style=for-the-badge&logo=heart&logoColor=white" alt="Donate via SupportKori"/></a>
   <br/>
@@ -30,7 +30,7 @@ Most devs pick one road. I walk two.
 class TamimHasan:
     username = "tamimlabs"
     location = "Bangladesh"
-    portfolio = "tamimlabs.pages.dev"
+    portfolio = "tamimlabs.com"
     roles = ["Full-Stack Developer", "Open-Source Builder", "Future Doctor, Inshallah"]
 
     passions = ["desktop apps", "AI agents", "computer vision",
@@ -45,8 +45,8 @@ class TamimHasan:
 - 🔭 Right now: building **Your Download Manager (YDM)** — segmented downloads + torrents + HLS + site extraction in one Tauri app
 - 🌱 Leveling up: **Rust, Tauri internals, download protocols (aria2 / libtorrent / FFmpeg)**
 - 💬 Ask me about: Tauri 2, Svelte 5, Gemini + ADK agents, OpenCV, yt-dlp pipelines, Arduino PID robots
-- ⚡ Fun fact: my portfolio runs on **zero dependencies** — I even built a terminal, particle lab & sorting visualizer in vanilla JS
-- 📬 Inbox open: **contact.tamimlabs@gmail.com**
+- ⚡ Fun fact: my portfolio is hand-written **Next.js + TypeScript**, statically exported — zero templates, zero trackers
+- 📬 Inbox open: **hello@tamimlabs.com**
 
 ---
 
@@ -79,7 +79,7 @@ yt-dlp · FFmpeg · M-V3        Cloud Run · Firestore         Cloudflare Pages 
 **🎬 Social Media Automation** `Python · n8n · Gemini · MoviePy` — [code](https://github.com/tamimlabs/social-media-automation)
 <br/>Zero-cost pipeline: raw video + prompt → captioned 9:16 clip, auto-edited, auto-published via Telegram + n8n.
 
-**⚔️ Cyber Clash 2077** `HTML · CSS · JS` — [🎮 play it](https://cyber-clash-2077.pages.dev/)
+**⚔️ Cyber Clash 2077** `HTML · CSS · JS` — [🎮 play it](https://tamimlabs.github.io/cyber-clash-2077/)
 <br/>50-level cyberpunk browser fighter, 5 story arcs, 5 bosses. Zero backend, pure front-end juice.
 
 **🔌 Browser Download Companion** `JS · Manifest V3`
@@ -91,8 +91,8 @@ yt-dlp · FFmpeg · M-V3        Cloud Run · Firestore         Cloudflare Pages 
 **🎞️ STICK: A Stickman Epic** `Python · MoviePy · FFmpeg`
 <br/>CLI movie studio — scripted scenes render to video, a full soundtrack gets synthesized, then muxed into a final MP4.
 
-**🌐 tamimlabs.pages.dev** `Vanilla HTML/CSS/JS` — [visit](https://tamimlabs.pages.dev)
-<br/>My portfolio is itself a project: sorting visualizer, canvas particle lab, triple-format live clock, in-browser terminal. No frameworks were harmed.
+**🌐 tamimlabs.com** `Next.js · TypeScript · Tailwind` — [visit](https://tamimlabs.com)
+<br/>My portfolio is itself a project: custom-built service pages, three interactive demos, a full case study — statically exported, no templates, no page builders.
 
 ---
 
@@ -156,9 +156,9 @@ If my work helps you, please consider supporting it:
 I'm always up for collabs, feedback on YDM, hackathons, or just nerding out over Rust + Svelte.
 
 <p align="center">
-  <a href="https://tamimlabs.pages.dev"><img src="https://img.shields.io/badge/Portfolio-2764d8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="portfolio"/></a>
+  <a href="https://tamimlabs.com"><img src="https://img.shields.io/badge/Portfolio-2764d8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="portfolio"/></a>
   <a href="https://github.com/tamimlabs"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-  <a href="mailto:contact.tamimlabs@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
+  <a href="mailto:hello@tamimlabs.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
   <a href="https://devpost.com/tamimlabs"><img src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=white" alt="devpost"/></a>
   <a href="https://youtube.com/@tamimlabs"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"/></a>
   <a href="https://facebook.com/tamimlabs"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="facebook"/></a>

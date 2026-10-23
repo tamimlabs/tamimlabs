@@ -49,7 +49,7 @@ class TamimHasan:
 - 🆕 Just shipped: **TimeLock** — a Windows focus lock that survives restarts, built with the C# compiler that already ships inside Windows
 - 🧰 Side quest: **19 free browser tools**, 18 of which never send your data anywhere
 - 🌱 Leveling up: **Rust, Tauri internals, download protocols (aria2 / libtorrent / FFmpeg), WebExtensions**
-- 💬 Ask me about: Tauri 2, Svelte 5, Gemini + ADK agents, OpenCV, yt-dlp pipelines, Arduino PID robots
+- 💬 Ask me about: Tauri 2, Svelte 5, Gemini + ADK, OpenCV, yt-dlp, Arduino — and what each one cost me in debugging
 - 📬 Inbox open: **hello@tamimlabs.com**
 
 ---
@@ -116,7 +116,9 @@ aria2 · libtorrent            Cloud Run · Firestore         Cloudflare Pages  
 
 ---
 
-### 🧰 Toolbox
+### 🧰 What I build with
+
+> Chosen by the problem, not by fashion.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,tauri,svelte,ts,js,react,nextjs,tailwind,html,css&theme=light" alt="frontend"/>

@@ -1,7 +1,7 @@
 <img width="100%" src="assets/header.svg" alt="Tamim Hasan — Full-Stack Developer"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=700&color=24C8DB&center=true&vCenter=true&width=650&lines=Medical+student+by+dream+%2B+developer+by+heart;I+build+privacy-first+apps%2C+browser+tools+%26+AI+agents;19+free+tools+%E2%80%94+18+never+leave+your+browser;No+telemetry.+No+tracking.+Just+good+software.;Welcome+to+my+GitHub+%F0%9F%91%8B" alt="typing intro"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=700&color=24C8DB&center=true&vCenter=true&width=650&lines=Full-stack+developer+%26+systems+tinkerer;I+build+privacy-first+apps%2C+browser+tools+%26+AI+agents;19+free+tools+%E2%80%94+18+never+leave+your+browser;No+telemetry.+No+tracking.+Just+good+software.;Welcome+to+my+GitHub+%F0%9F%91%8B" alt="typing intro"/>
 </p>
 
 <p align="center">
@@ -23,9 +23,9 @@
 
 ### 🙋‍♂️ Hey, I'm Tamim
 
-Most devs pick one road. I walk two.
+I build software end to end — from the engine to the interface to the deploy, using whatever the problem actually calls for.
 
-> **By day I study to become a doctor. By night I build software** — download engines in Rust, AI agents in Python, Windows utilities in C#, browser tools in TypeScript. Same mindset in both worlds: diagnose carefully, treat precisely, do no harm.
+> **Privacy-first software, built all the way down** — download managers, AI agents, Windows utilities, browser tools. The rule is the same everywhere: measure first, change second, ship it clean.
 
 I run **[Tamim Labs](https://tamimlabs.com)** — an independent venture where the person who writes the code is the person you talk to. No agency layer, no ticket queue.
 
@@ -34,15 +34,15 @@ class TamimHasan:
     username = "tamimlabs"
     location = "Bangladesh"
     venture  = "Tamim Labs — thoughtful engineering, useful technology"
-    roles    = ["Full-Stack Developer", "Open-Source Builder", "Future Doctor, Inshallah"]
+    roles    = ["Full-Stack Developer", "Open-Source Builder", "Founder @ Tamim Labs"]
 
     passions = ["desktop apps", "browser tools", "AI agents", "computer vision",
                 "automation", "games", "robotics"]
-    currently_deep_into = ["Rust", "Tauri 2", "C# / Win32", "systems engineering"]
-    philosophy = "fast · clean · private · honest"
+    currently_deep_into = ["systems engineering", "on-device AI", "browser tooling"]
+    philosophy = "right tool for the job · fast · private · honest"
 
     def motto(self):
-        return "A dreamer who ships 🩺 + 💻"
+        return "A dreamer who ships — then measures 💻"
 ```
 
 - 🔭 Right now: **Your Download Manager (YDM)** — segmented downloads + torrents + HLS + site extraction in one Tauri app

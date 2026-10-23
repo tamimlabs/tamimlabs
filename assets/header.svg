@@ -1,55 +1,92 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tamim Hasan — Full-Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Tamim Hasan — full-stack developer and founder of Tamim Labs. A live signal trace reads release v1.0.0, telemetry 0 bytes.">
+  <title>Tamim Hasan · Tamim Labs</title>
+
   <defs>
+    <style>
+      .comet { stroke-dasharray: 26 974; stroke-dashoffset: 0; }
+      .dot { transform-box: fill-box; transform-origin: center; }
+      @keyframes sweep { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -1000; } }
+      @keyframes beat { 0%, 100% { opacity: .35; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+      @media (prefers-reduced-motion: no-preference) {
+        .comet { animation: sweep 6s linear infinite; }
+        .dot { animation: beat 2.6s ease-in-out infinite; }
+      }
+    </style>
+
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1E3A8A"/>
-      <stop offset="55%" stop-color="#1D4ED8"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="0" stop-color="#060B14"/>
+      <stop offset=".55" stop-color="#081322"/>
+      <stop offset="1" stop-color="#050A12"/>
     </linearGradient>
-    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    <radialGradient id="glowA" cx=".16" cy=".12" r=".7">
+      <stop offset="0" stop-color="#1D4ED8" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx=".88" cy=".9" r=".65">
+      <stop offset="0" stop-color="#0891B2" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".6" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
     </linearGradient>
-    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.6" fill="#FFFFFF" opacity="0.35"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8FB3D9" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
-    <filter id="tshadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000000" flood-opacity="0.4"/>
+    <pattern id="ticks" width="20" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 8V4" stroke="#5A7E9E" stroke-opacity=".45" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="28"/></clipPath>
   </defs>
 
-  <!-- solid card base: fully opaque, visible on light AND dark pages -->
-  <rect x="0" y="0" width="1200" height="300" rx="26" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1200" height="300" rx="26" fill="url(#dots)" opacity="0.5"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glowA)"/>
+    <rect width="1200" height="320" fill="url(#glowB)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
 
-  <!-- decorative rings, top-right -->
-  <g fill="none" stroke="#FFFFFF" opacity="0.28">
-    <circle cx="1090" cy="52" r="58" stroke-width="2"/>
-    <circle cx="1090" cy="52" r="86" stroke-width="1.5"/>
-    <circle cx="112" cy="248" r="44" stroke-width="2"/>
+    <!-- identity -->
+    <rect x="60" y="51" width="7" height="7" fill="#22D3EE"/>
+    <text x="80" y="60" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="13" letter-spacing="3.4" fill="#7C93AC">TAMIM LABS — INDEPENDENT VENTURE</text>
+
+    <text x="58" y="163" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#F4F8FC">Tamim Hasan</text>
+
+    <text x="60" y="202" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="14" letter-spacing="3.4" fill="#67E8F9">FULL-STACK DEVELOPER · PRIVACY BY DEFAULT</text>
+
+    <text x="60" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#A9BDD4">Measure first · change second · ship with care.</text>
+
+    <!-- live readout -->
+    <g font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" text-anchor="end">
+      <circle class="dot" cx="1080" cy="56" r="4" fill="#34D399"/>
+      <text x="1096" y="60" text-anchor="start" font-size="12" letter-spacing="3.4" fill="#8FA6BF">LIVE</text>
+
+      <text x="1140" y="108" font-size="10.5" letter-spacing="3.2" fill="#6E8399">RELEASE</text>
+      <text x="1140" y="140" font-size="26" font-weight="600" fill="#F1F5F9">v1.0.0</text>
+
+      <line x1="1032" y1="156" x2="1140" y2="156" stroke="#2A3F57" stroke-width="1"/>
+
+      <text x="1140" y="182" font-size="10.5" letter-spacing="3.2" fill="#6E8399">TELEMETRY</text>
+      <text x="1140" y="214" font-size="26" font-weight="600" fill="#34D399">0 BYTES</text>
+    </g>
+
+    <!-- instrument ticks + signal trace -->
+    <rect x="0" y="276" width="1200" height="8" fill="url(#ticks)"/>
+    <line x1="0" y1="284" x2="1200" y2="284" stroke="#2A4459" stroke-width="1" stroke-dasharray="2 10"/>
+
+    <path d="M0 284H64V258H96V284H136V246H150V284H196V268H236V284H272V250H292V284H318V272H330V284H368V242H390V284H420V262H448V284H492V252H510V284H548V244H556V284H600V266H648V284H690V250H712V284H748V274H790V284H830V240H848V284H884V260H916V284H958V252H972V284H1006V270H1054V284H1090V248H1112V284H1150V264H1170V284H1200"
+          fill="none" stroke="#1E4C61" stroke-width="2" stroke-linejoin="round"/>
+
+    <path class="comet" d="M0 284H64V258H96V284H136V246H150V284H196V268H236V284H272V250H292V284H318V272H330V284H368V242H390V284H420V262H448V284H492V252H510V284H548V244H556V284H600V266H648V284H690V250H712V284H748V274H790V284H830V240H848V284H884V260H916V284H958V252H972V284H1006V270H1054V284H1090V248H1112V284H1150V264H1170V284H1200"
+          pathLength="1000" fill="none" stroke="url(#trace)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
   </g>
-  <circle cx="150" cy="60" r="6" fill="#7DD3FC" opacity="0.9"/>
-  <circle cx="1052" cy="222" r="5" fill="#BFDBFE" opacity="0.9"/>
 
-  <!-- animated waves along the bottom (text zone stays on clean gradient) -->
-  <path fill="url(#waveA)" opacity="0.55"
-        d="M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z">
-    <animate attributeName="d" dur="9s" repeatCount="indefinite"
-      values="M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z;
-              M0,238 C150,258 300,220 450,244 S750,260 900,236 S1100,220 1200,242 L1200,300 L0,300 Z;
-              M0,238 C150,218 300,258 450,240 S750,218 900,240 S1100,260 1200,238 L1200,300 L0,300 Z"/>
-  </path>
-  <path fill="#0B1220" opacity="0.28"
-        d="M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z">
-    <animate attributeName="d" dur="12s" repeatCount="indefinite"
-      values="M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z;
-              M0,262 C180,278 340,246 520,264 S820,278 1000,258 S1130,246 1200,266 L1200,300 L0,300 Z;
-              M0,262 C180,244 340,278 520,260 S820,244 1000,262 S1130,276 1200,262 L1200,300 L0,300 Z"/>
-  </path>
-
-  <!-- name + subtitle, centered on the clean part of the gradient -->
-  <text x="600" y="138" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif"
-        font-size="72" font-weight="800" letter-spacing="1" fill="#FFFFFF" filter="url(#tshadow)">Tamim Hasan</text>
-  <rect x="480" y="162" width="240" height="4" rx="2" fill="#7DD3FC" opacity="0.9"/>
-  <text x="600" y="204" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif"
-        font-size="25" font-weight="600" letter-spacing="3" fill="#DBEAFE">@TAMIMLABS · FULL-STACK DEVELOPER</text>
+  <rect x=".5" y=".5" width="1199" height="319" rx="28" fill="none" stroke="#8FB3D9" stroke-opacity=".16"/>
 </svg>

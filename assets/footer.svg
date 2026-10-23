@@ -1,21 +1,70 @@
-<svg width="1200" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Tamim Labs — thoughtful engineering, useful technology. tamimlabs.com">
+  <title>Tamim Labs · tamimlabs.com</title>
+
   <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="55%" stop-color="#1D4ED8"/>
-      <stop offset="100%" stop-color="#1E3A8A"/>
+    <style>
+      .comet { stroke-dasharray: 26 974; stroke-dashoffset: 0; }
+      @keyframes sweep { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -1000; } }
+      @media (prefers-reduced-motion: no-preference) {
+        .comet { animation: sweep 7s linear infinite; }
+      }
+    </style>
+
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A12"/>
+      <stop offset=".5" stop-color="#081322"/>
+      <stop offset="1" stop-color="#060D18"/>
     </linearGradient>
-    <pattern id="fdots" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.6" fill="#FFFFFF" opacity="0.3"/>
+    <radialGradient id="fglow" cx=".5" cy=".1" r=".8">
+      <stop offset="0" stop-color="#1D4ED8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ftrace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset=".5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="fgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8FB3D9" stroke-opacity=".05" stroke-width="1"/>
     </pattern>
+    <pattern id="fticks" width="20" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 8V5" stroke="#5A7E9E" stroke-opacity=".35" stroke-width="1"/>
+    </pattern>
+    <filter id="fglow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="fframe"><rect width="1200" height="150" rx="26"/></clipPath>
   </defs>
-  <rect x="0" y="0" width="1200" height="130" rx="26" fill="url(#fbg)"/>
-  <rect x="0" y="0" width="1200" height="130" rx="26" fill="url(#fdots)" opacity="0.5"/>
-  <path fill="#FFFFFF" opacity="0.16"
-        d="M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z">
-    <animate attributeName="d" dur="10s" repeatCount="indefinite"
-      values="M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z;
-              M0,46 C150,66 300,28 450,52 S750,68 900,44 S1100,28 1200,50 L1200,0 L0,0 Z;
-              M0,46 C150,26 300,66 450,48 S750,26 900,48 S1100,68 1200,46 L1200,0 L0,0 Z"/>
-  </path>
+
+  <g clip-path="url(#fframe)">
+    <rect width="1200" height="150" fill="url(#fbg)"/>
+    <rect width="1200" height="150" fill="url(#fglow)"/>
+    <rect width="1200" height="150" fill="url(#fgrid)"/>
+
+    <!-- mark -->
+    <rect x="56" y="32" width="30" height="30" rx="9" fill="none" stroke="#22D3EE" stroke-opacity=".45" stroke-width="1.5"/>
+    <path d="M63 47h5v-7h5v14h5v-7h6" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="102" y="53" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="12.5" letter-spacing="3.6" fill="#93C5FD">TAMIM LABS</text>
+
+    <text x="600" y="54" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" fill="#B9CADD">Thoughtful engineering. Useful technology.</text>
+
+    <text x="1144" y="53" text-anchor="end" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#67E8F9">tamimlabs.com</text>
+
+    <!-- pulse continues -->
+    <rect x="0" y="106" width="1200" height="8" fill="url(#fticks)"/>
+    <line x1="0" y1="114" x2="1200" y2="114" stroke="#2A4459" stroke-width="1" stroke-dasharray="2 10"/>
+
+    <path d="M0 114H96V86H128V114H190V100H232V114H300V90H330V114H392V104H430V114H500V88H520V114H588V98H636V114H700V92H724V114H790V84H818V114H880V102H926V114H996V90H1018V114H1084V96H1128V114H1200"
+          fill="none" stroke="#1E4C61" stroke-width="2" stroke-linejoin="round"/>
+
+    <path class="comet" d="M0 114H96V86H128V114H190V100H232V114H300V90H330V114H392V104H430V114H500V88H520V114H588V98H636V114H700V92H724V114H790V84H818V114H880V102H926V114H996V90H1018V114H1084V96H1128V114H1200"
+          pathLength="1000" fill="none" stroke="url(#ftrace)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#fglow)"/>
+  </g>
+
+  <rect x=".5" y=".5" width="1199" height="149" rx="26" fill="none" stroke="#8FB3D9" stroke-opacity=".16"/>
 </svg>
